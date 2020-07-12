@@ -1,0 +1,38 @@
+body {
+   background-color: #141218;
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+}
+.container {
+   max-width: 1140px;
+   margin: auto;
+}
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 60px;
+}
+.header-logo {
+   width: 50px;
+}
+.menu-list {
+   margin-right: auto;
+   margin-left: 68px;
+}
+.menu-link {
+   margin-right: 24px;
+   font-size: 14px;
+   line-height: 16px;
+   color: #ffffff;
+}
+.menu-link:last-child {
+   margin-right: 0;
+}
+.social-link {
+   margin-right: 21px;
+}
+.social-link:last-child {
+   margin-right: 0;
+}
